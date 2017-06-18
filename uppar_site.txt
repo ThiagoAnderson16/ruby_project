@@ -1,0 +1,1000 @@
+   73  rails version
+   74  rake db:migrate
+   75  sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
+   76  sudo apt-get update
+   77  sudo apt-get install qbittorrent
+   78  cd myapp/
+   79  rails server
+   80  rake db:migrate
+   81  rails server
+   82  ls
+   83  git clone https://github.com/ThiagoAnderson16/english_images.git
+   84  git status
+   85  git init
+   86  git status
+   87  git add .
+   88  git status
+   89  git commit -m "Primeiros passos no projeto com Ruby"
+   90  git push origi master
+   91  git push origin master
+   92  git push  master
+   93  git push master
+   94  git push origin master
+   95  git push -u origin master
+   96  git remote add origin https://github.com/ThiagoAnderson16/english_images.git
+   97  git status
+   98  git push -u origin master
+   99  ls
+  100  cd myapp/
+  101  ls
+  102  rails server
+  103  git status
+  104  git add .
+  105  git status
+  106  git commit -m "Aparecendo apenas a imagem 0 na primeira chamada do array"
+  107  git push origin master
+  108  git status
+  109  ssh u466240039@31.170.167.146
+  110  ssh u466240039@31.170.167.146:21
+  111  ssh u466240039@wpinicial.esy.es:21
+  112  ping wpinicial.esy.es
+  113  ssh u466240039@31.170.167.146:21
+  114  ssh 31.170.167.146@u466240039@:21
+  115  ssh root@31.170.167.146:21
+  116  ssh u466240039@31.170.167.146
+  117  ssh u466240039@31.170.167.146 -p 21
+  118  ssh u466240039@ftp.wpinicial.esy.es -p 21
+  119  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+  120  ~/.dropbox-dist/dropboxd
+  121  sudo su
+  122  sudo passwd entre
+  123  sudo apt-get install software-properties-common
+  124  sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+  125  curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+  126  sudo apt-get install heroku
+  127  heroku --version
+  128  ls
+  129  cd myapp/
+  130  ls
+  131  rails server
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd Documentos/
+  136  ls
+  137  mkdir Ruby
+  138  mv ../myapp/ .
+  139  ls
+  140  mv myapp/ Ruby/
+  141  ls
+  142  cd Ruby/
+  143  ls
+  144  heroku git:clone -a english-images
+  145  ls
+  146  cd english-images/
+  147  ls
+  148  ls- a
+  149  ls -a
+  150  ls
+  151  ls -a
+  152  ls
+  153  rm config.ru Gemfile Procfile Rakefile  Gemfile.lock app.json README.md 
+  154  ls
+  155  rm -rf app/ bin/ config/ db/ lib/ log/ public/ test/ vendor/
+  156  ls
+  157  ls -a
+  158  cd ..
+  159  ls
+  160  mv myapp/* english-images/
+  161  ls
+  162  cd english-images/
+  163  ls
+  164  cd ..
+  165  cd myapp/
+  166  ls
+  167  s
+  168  ls
+  169  git status
+  170  cd ..
+  171  cd english-images/
+  172  ls
+  173  git sta
+  174  git status
+  175  git add ..
+  176  git add .
+  177  ls
+  178  git status 
+  179  git commit -m "Teste de inserção de novo porjeto"
+  180  git status
+  181  git push heroku master
+  182  ls
+  183  ls -a
+  184  cd ../myapp/
+  185  ls
+  186  ls -a
+  187  git status
+  188  rails server
+  189  ls
+  190  heroku login
+  191  heroku create
+  192  git push heroku master
+  193  heroku open
+  194  git status
+  195  git add .
+  196  git commit -m "Alterando o production.rb"
+  197  git push heroku master
+  198  git status
+  199  heroku run rake db:migrate
+  200  git status
+  201  git add .
+  202  git commit -m "Alterando o routes.rb"
+  203  git push heroku master
+  204  cd ..
+  205  ls
+  206  cd ruby-getting-started/
+  207  ls
+  208  heroku create
+  209  git push heroku master
+  210  heroku open
+  211  $>rails generate scaffold imgs nome:string traducao:string link:string
+  212  rails generate scaffold imgs nome:string traducao:string link:string
+  213  cd ..
+  214  ls
+  215  rm -rf ruby-getting-started/
+  216  ls
+  217  cd myapp/
+  218  ls
+  219  cd ..
+  220  ls
+  221  heroku login
+  222  gem install rails -v 4.2.6 --no-ri --no-rdoc
+  223  ls
+  224  rails new myapp --database=mysql
+  225  ls
+  226  rails new myapp2 --database=mysql
+  227  ls
+  228  cd myapp2/
+  229  ls
+  230  rails generate scaffold Contato nome:string telefone:string
+  231  rails server
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd myapp2
+  236  rake db:migrate
+  237  --trace 
+  238  rake db:migrate --trace
+  239  rails server
+  240  ls
+  241  cd ..
+  242  rm -rf myapp2/
+  243  la
+  244  ls
+  245  cd myapp/
+  246  rails server
+  247  ls
+  248  cd ..
+  249  ls
+  250  heroku login
+  251  l
+  252  ls
+  253  l
+  254  git clone https://github.com/heroku/ruby-getting-started.git
+  255  cd ruby-getting-started
+  256  heroku create
+  257  git push heroku master
+  258  heroku open
+  259  ls
+  260  cd ..
+  261  ls
+  262  cd ruby-getting-started/
+  263  ls
+  264  rails generate controller Welcome index
+  265  ls
+  266  cd ..
+  267  ls
+  268  rails generate controller Welcome index
+  269  cd ruby-getting-started/
+  270  rails routes
+  271  cd ..
+  272  cd myapp/
+  273  rails routes
+  274  rails generate controller Articles
+  275  rails routes
+  276  cd ..
+  277  ls
+  278  cd myapp/
+  279  ls
+  280  cd ..
+  281  ls
+  282  cd ruby-getting-started/
+  283  ls
+  284  rails routes
+  285  gem install bundler
+  286  rails routes
+  287  gem update bundler 
+  288  rails routes
+  289  cd ..
+  290  ls
+  291  rm -rf english-images/ myapp/ ruby-getting-started/
+  292  l
+  293  ls
+  294  git clone https://github.com/ThiagoAnderson16/english_images.git
+  295  ls
+  296  cd english_images/
+  297  ls
+  298  l
+  299  cd ..
+  300  ls
+  301  cd english_images/
+  302  rails server
+  303  ls
+  304  cd Documentos/Ruby/
+  305  ls
+  306  cd english_images/
+  307  rails server
+  308  gem -v
+  309  gem list
+  310  rails
+  311  cd ..
+  312  ks
+  313  ls
+  314  rails s
+  315  cd english_images/
+  316  rails s
+  317  irb
+  318  ls
+  319  cd ..
+  320  s
+  321  ls
+  322  rails new appexample --database=mysql
+  323  ls
+  324  rails s
+  325  cd appexample/
+  326  rals s
+  327  rails s
+  328  mysql -u root
+  329  rake -T
+  330  rake db:create
+  331  SELECT User, Host, Password FROM mysql.user;
+  332  mysql -u root
+  333  mysql -u root -p
+  334  mysql -u root -p123
+  335  mysql -u root -p
+  336  cd ;;
+  337  cd ..
+  338  ls
+  339  cd appexample/
+  340  mysql -u root -p
+  341  mysql -u root -p123
+  342  mysql -u root -p
+  343  mysql -u root (no password needed) SET PASSWORD FOR 'root'@'localhost' = PASSWORD('myPassword');
+  344  mysql -u root SET PASSWORD FOR 'root'@'localhost' = PASSWORD('myPassword');
+  345  mysql -u root
+  346  rake db:create
+  347  db:create
+  348  rake db:create
+  349  mysql -u root -p
+  350  mysqladmin -u root password "123"
+  351  mysqladmin -u root password 123
+  352  mysqladmin -u root -p password '123456'
+  353  sudo service mysql stop
+  354  sudo mysqld_safe --skip-grant-tables --skip-syslog --skip-networking
+  355  mysql -u root
+  356  ls
+  357  cd Documentos/
+  358  cd Ruby/
+  359  ls
+  360  cd appexample/
+  361  mysql -u root
+  362  sudo service mysql stop
+  363  mysql -u root
+  364  ALTER USER 'root'@'localhost' IDENTIFIED BY '123';
+  365  sudo su
+  366  ls
+  367  cd Documentos/Ruby/
+  368  ls
+  369  rake db:create
+  370  sudo service mysql start
+  371  rake db:create
+  372  cd appexample/
+  373  rake db:create
+  374  mysql -u root -p
+  375  ls
+  376  mysql -u root
+  377  sudo /etc/init.d/mysql stop
+  378  sudo mysqld_safe --skip-grant-tables &
+  379  sudo /etc/init.d/mysql start
+  380  mysql -u root
+  381  mysql -u root -p
+  382  sudo apt-get install mysql-server
+  383  cd /etc/my.cnf
+  384  cd /etc/
+  385  ls
+  386  nano my.conf
+  387  ls
+  388  service mysql start
+  389  cd mysql/
+  390  ls
+  391  cd /tmp
+  392  ls
+  393  cd /tmp/mysql.sock
+  394  mysql -u root
+  395  /var/run/mysqld/
+  396  /var/run/mysqld
+  397  /var/run/
+  398  /var/
+  399  /var
+  400  cd /var/run/mysqld/
+  401  ls
+  402  cd Documentos/Ruby/
+  403  ls
+  404  cd appexample/
+  405  ls
+  406  service mysql start
+  407  mysql -u root
+  408  rails generate scaffold customer name:string email:string birthday:date obs:text
+  409  rake db:migrate
+  410  rails s
+  411  rake db:migrate
+  412  mysql -u root -p
+  413  c ..
+  414  cd ../english_images/
+  415  rake db:migrate
+  416  rails generate scaffold customer name:string email:string birthday:date obs:text
+  417  cd ..
+  418  ls
+  419  rm -rf english_images/
+  420  rm -rf appexample/
+  421  ls
+  422  rails new appexample --database=mysql
+  423  cd appexample/
+  424  mysql -u root
+  425  rails generate scaffold customer name:string email:string birthday:date obs:tex
+  426  cd Documentos/Ruby/appexample/
+  427  rails generate scaffold customer name:string email:string birthday:date obs:tex
+  428  rake db:migrate
+  429  cd /root/
+  430  sudo su
+  431  rake db:migrate
+  432  sudo su
+  433  rake db:migrate
+  434  mysql -u root
+  435  use mysql
+  436  mysql -u root
+  437  sudo dpkg-reconfigure mysql-server-5.5
+  438  sudo dpkg --configure mysql-server-5.5
+  439  rake db:create
+  440  mysql -u root
+  441  rake db:create
+  442  ruby -v
+  443  mysqladmin -u root password 'newpass'
+  444  sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-5.5 mysql-client-core-5.5
+  445  sudo rm -rf /etc/mysql /var/lib/mysql
+  446  sudo apt-get autoremove
+  447  sudo apt-get autoclean
+  448  mysql -u root
+  449  sudo apt-get update
+  450  sudo apt-get install mysql-server
+  451  sudo mysql_secure_installation
+  452  mysql -u root
+  453  mysql -u root -p
+  454  cd ..
+  455  ls
+  456  rm -rf appexample/
+  457  rails new appexample --database=mysql
+  458  ls
+  459  cd appexample/
+  460  ls
+  461  rails generate scaffold customer name:string email:string birthday:date obs:tex
+  462  rails generate scaffold customer name:string email:string birthday:date obs:text
+  463  cd Documentos/Ruby/appexample/
+  464  rails generate scaffold customer name:string email:string birthday:date obs:text
+  465  ls
+  466  cd ..
+  467  ls
+  468  rm -rf appexample/
+  469  ls
+  470  rails new appexample --database=mysql
+  471  ls
+  472  cd appexample/
+  473  ls
+  474  rails generate scaffold customer name:string email:string birthday:date obs:text
+  475  cd Documentos/Ruby/appexample/
+  476  rails s
+  477  rails s > log.txt
+  478  ls
+  479  nano log.txt 
+  480  rm -rf log.txt 
+  481  ls
+  482  rails s
+  483  gem uninstall mysql2
+  484  gem install mysql2
+  485  rails s
+  486  bundle install
+  487  gem install mysql2 -v '0.4.5'
+  488  bundle install
+  489  rails s
+  490  gem install mysql2 -v '0.4.5'
+  491  sudo apt-get install libmysqlclient20-dev
+  492  sudo apt-get install libmysqlclient19-dev
+  493  pt-get install libmysqlclient16
+  494  apt-get install libmysqlclient16
+  495  sudo apt-get install libmysqlclient16
+  496  rails s
+  497  bundle install
+  498  gem install mysql
+  499  bundle install
+  500  gem install mysql2 -v '0.4.5'
+  501  sudo apt-get update
+  502  sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs
+  503  cd ..
+  504  ls
+  505  rm -rf appexample/
+  506  ls
+  507  git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+  508  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+  509  echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+  510  exec $SHELL
+  511  git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+  512  echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
+  513  exec $SHELL
+  514  rails s
+  515  cd Documentos/Ruby/appexample/
+  516  rails s
+  517  mysql -u root -prootsor
+  518  rails s
+  519  rails console
+  520  rails s
+  521  rails g controller welcome
+  522  export $SENHA_ROOT_MYSQL = "rootsor"
+  523  export $SENHA_ROOT_MYSQL="rootsor"
+  524  export SENHA_ROOT_MYSQL="rootsor"
+  525  echo $SENHA_ROOT_MYSQL
+  526  rails s
+  527  cd Documentos/Ruby/appexample/
+  528  cd ..
+  529  ls
+  530  cd appexample/
+  531  git init
+  532  git add .
+  533  git commit -m "#1 firts commit"
+  534  cd ..
+  535  ls
+  536  git clone https://github.com/ThiagoAnderson16/appexample.git
+  537  ls
+  538  cd appexample/
+  539  ls
+  540  cd ..
+  541  cd Ruby/
+  542  ls
+  543  mv appexample/* ../appexample/
+  544  cd appexample/
+  545  ls
+  546  cd ..
+  547  ls
+  548  cd ..
+  549  ls
+  550  cd appexample/
+  551  ls
+  552  git status
+  553  git add .
+  554  git commit -m "#1 firts commit"
+  555  git push origin master
+  556  ls
+  557  cd ..
+  558  ls
+  559  cd Ruby/
+  560  ls
+  561  rm -rf appexample/
+  562  cd ..
+  563  ls
+  564  mv appexample/ Ruby/
+  565  ls
+  566  cd Ruby/
+  567  ls
+  568  cd appexample/
+  569  rail s
+  570  rails s
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd appexample/
+  575  git status
+  576  ruby -v
+  577  gem -v
+  578  git status
+  579  git add .
+  580  git commit -m "Create a README"
+  581  git push origin master
+  582  sudo apt-get install xclip
+  583  xclip -sel clip < ~/.ssh/id_rsa.pub
+  584  cd ~/.ssh/
+  585  ls
+  586  nano id_rsa.pub 
+  587  echo id_rsa.pub 
+  588  nano id_rsa.pub 
+  589  cd ..
+  590  ls
+  591  cd Documentos/Ruby/
+  592  ls
+  593  cd appexample/
+  594  ls
+  595  nano README.md 
+  596  git add .
+  597  git commit -m "Test ssh key"
+  598  git push origin master
+  599  nano README.md 
+  600  ls
+  601  gigt status
+  602  git status
+  603  nano README.md 
+  604  ls
+  605  git status
+  606  git add .
+  607  git commit -m "Test ssh key"
+  608  git push origin master
+  609  which python
+  610  cd Downloads/
+  611  ls
+  612  mv facebook-pt-br.py ../Área\ de\ Trabalho/
+  613  cd ../Área\ de\ Trabalho/
+  614  ls
+  615  python facebook-pt-br.py 
+  616  sudo apt-get install python-mechanize
+  617  python facebook-pt-br.py 
+  618  python facebook-pt-br.py
+  619  pwd
+  620  ls
+  621  cd Documentos/
+  622  ls
+  623  na
+  624  nano tt.txt 
+  625  cd ..
+  626  ls
+  627  cd Área\ de\ Trabalho/
+  628  ls
+  629  history 
+  630  python facebook-pt-br.py 
+  631  python
+  632  pwd
+  633  ls
+  634  cd Área\ de\ Trabalho/
+  635  ls
+  636  cd job/
+  637  ls
+  638  cd ..
+  639  git@github.com:ThiagoAnderson16/job-may.git
+  640  git clone git@github.com:ThiagoAnderson16/job-may.git
+  641  ls
+  642  mv job/* job-may/
+  643  ls
+  644  cd job
+  645  ls
+  646  cd ..
+  647  cd job-may/
+  648  ls
+  649  git status
+  650  git add .
+  651  ls
+  652  git commit -m "#1rs commit"
+  653  git push origin master
+  654  ls
+  655  touch README.md
+  656  nano README.md 
+  657  ls
+  658  git add .
+  659  git commit -m "Send a README"
+  660  git push origin master
+  661  sudo add-apt-repository ppa:atareao/colorgetter
+  662  sudo apt-get update
+  663  sudo apt-get install colorgetter
+  664  sudo add-apt-repository ppa:atareao/colorgetter
+  665  sudo apt-get install gpick
+  666  cd Área\ de\ Trabalho/
+  667  LS
+  668  ls
+  669  cd job-may/
+  670  git status
+  671  git add .
+  672  git commit -m "Doing desktop version"
+  673  git push origin master
+  674  l
+  675  ls
+  676  cd Área\ de\ Trabalho/
+  677  ls
+  678  cd job-may/
+  679  ls
+  680  git status
+  681  git commi -m "Add the new healthcares"
+  682  git commit -m "Add the new healthcares"
+  683  git add .
+  684  git commit -m "Add the new healthcares"
+  685  ls
+  686  git status
+  687  cd Área\ de\ Trabalho/
+  688  ls
+  689  c job-may/
+  690  cd job-may/
+  691  ls
+  692  git status
+  693  git add .
+  694  git commit -m "Concluding the desktop version"
+  695  git status
+  696  git add .
+  697  git status
+  698  git commit -m "Starting mobile version"
+  699  git push origin master
+  700  git status
+  701  git add .
+  702  git commit -m "Doing mobile version"
+  703  git push origin master
+  704  gitpwd
+  705  ls
+  706  cd Área\ de\ Trabalho/
+  707  cd job-may/
+  708  ls
+  709  git status
+  710  git add .
+  711  git commit -m "Concluding mobile version"
+  712  git push origin master
+  713  git status
+  714  git pull
+  715  git status
+  716  git add .
+  717  git status
+  718  git add email-job-may/
+  719  git status
+  720  ls
+  721  git status
+  722  git add .
+  723  git status
+  724  git commit -m "Resolving error"
+  725  git push origin master
+  726  sudo su
+  727  nano /etc/rc.local
+  728  sudo su
+  729  node --version
+  730  ruby --version
+  731  ls
+  732  cd Documentos/
+  733  ls
+  734  cd Ruby/
+  735  ls
+  736  cd appexample/
+  737  ls
+  738  rails s
+  739  git status
+  740  rails s
+  741  LS
+  742  ls
+  743  cd ..
+  744  ls
+  745  cd ..
+  746  ls
+  747  git clone git@bitbucket.org:dev_ratts/praiashopping.git
+  748  git clone https://ThiagoAnderson_Ratts@bitbucket.org/dev_ratts/praiashopping.git
+  749  ls
+  750  cd praiashopping/
+  751  ls
+  752  rails s
+  753  bundle install
+  754  gem install json -v '1.7.7'
+  755  ls
+  756  cd ..
+  757  ls
+  758  gem install json -v '1.7.7' >
+  759  cd praiashopping/
+  760  ls
+  761  gem install json -v '1.7.7' >
+  762  gem install json -v '1.7.7' > texto.txt
+  763  ls
+  764  nano texto.txt 
+  765  gem --version
+  766  gem --v
+  767  gem --version
+  768  yard --verion
+  769  yard --version
+  770  gem --version
+  771  ls
+  772  cd Documentos/
+  773  ls
+  774  git clone git@github.com:ThiagoAnderson16/c_exercice.git
+  775  cd c_exercice/
+  776  ls
+  777  gcc -o main *.c -lm
+  778  main
+  779  ls
+  780  main.c
+  781  main
+  782  ls
+  783  gcc -o main *.c -lm
+  784  make main
+  785  make main.c
+  786  ls
+  787  rm main
+  788  ls
+  789  make main
+  790  ls
+  791  rm main
+  792  ls
+  793  make main
+  794  ./main 
+  795  ls
+  796  gcc -o main *.c -lm
+  797  make main
+  798  ./main 
+  799  ls
+  800  gcc -o main *.c -lm
+  801  ./main 
+  802  gcc -o main *.c -lm
+  803  ./main 
+  804  gcc -o main *.c -lm
+  805  ./main 
+  806  gcc -o main *.c -lm
+  807  ./main 
+  808  gcc -o main *.c -lm
+  809  ./main 
+  810  git status
+  811  git add .
+  812  git commit -m "Aquele backup de código fera"
+  813  git push origi master
+  814  git push origin master
+  815  gcc -o main *.c -lm
+  816  ./main 
+  817  gcc -o main *.c -lm
+  818  ./main 
+  819  gcc -o main *.c -lm
+  820  ./main 
+  821  gcc -o main *.c -lm
+  822  ./main 
+  823  gcc -o main *.c -lm
+  824  ./main 
+  825  gcc -o main *.c -lm
+  826  ./main 
+  827  gcc -o main *.c -lm
+  828  ./main 
+  829  gcc -o main *.c -lm
+  830  ./main 
+  831  gcc -o main *.c -lm
+  832  ./main 
+  833  gcc -o main *.c -lm
+  834  ./main 
+  835  gcc -o main *.c -lm
+  836  ./main 
+  837  gcc -o main *.c -lm
+  838  ./main 
+  839  gcc -o main *.c -lm
+  840  ./main 
+  841  gcc -o main *.c -lm
+  842  ./main 
+  843  gcc -o main *.c -lm
+  844  ./main 
+  845  gcc -o main *.c -lm
+  846  ./main 
+  847  gcc -o main *.c -lm
+  848  ./main 
+  849  gcc -o main *.c -lm
+  850  ./main 
+  851  gcc -o main *.c -lm
+  852  ./main 
+  853  gcc -o main *.c -lm
+  854  ./main 
+  855  gcc -o main *.c -lm
+  856  ./main 
+  857  gcc -o main *.c -lm
+  858  ./main 
+  859  gcc -o main *.c -lm
+  860  ./main 
+  861  gcc -o main *.c -lm
+  862  ./main 
+  863  gcc -o main *.c -lm
+  864  ./main 
+  865  gcc -o main *.c -lm
+  866  ./main 
+  867  gcc -o main *.c -lm
+  868  ./main 
+  869  gcc -o main *.c -lm
+  870  ./main 
+  871  gcc -o main *.c -lm
+  872  ./main 
+  873  gcc -o main *.c -lm
+  874  ./main 
+  875  gcc -o main *.c -lm
+  876  ./main 
+  877  gcc -o main *.c -lm
+  878  ./main 
+  879  gcc -o main *.c -lm
+  880  ./main 
+  881  gcc -o main *.c -lm
+  882  ./main 
+  883  gcc -o main *.c -lm
+  884  ./main 
+  885  gcc -o main *.c -lm
+  886  ./main 
+  887  gcc -o main *.c -lm
+  888  ./main 
+  889  gcc -o main *.c -lm
+  890  ./main 
+  891  gcc -o main *.c -lm
+  892  ./main 
+  893  gcc -o main *.c -lm
+  894  ./main 
+  895  gcc -o main *.c -lm
+  896  ./main 
+  897  gcc -o main *.c -lm
+  898  ./main 
+  899  gcc -o main *.c -lm
+  900  ./main 
+  901  ls
+  902  git add .
+  903  git commit -m "list done"
+  904  gcc -o main *.c -lm
+  905  ./main 
+  906  git add .
+  907  git commit -m "list done"
+  908  git push origin master
+  909  mkdir README.md
+  910  rm -rf README.md/
+  911  touch README.md
+  912  git add .
+  913  gcc -o main *.c -lm
+  914  git add .
+  915  git commit -m "list done"
+  916  git push origin master
+  917  git add .
+  918  git commit -m "list done"
+  919  git push origin master
+  920  git add .
+  921  git commit -m "list done"
+  922  git push origin master
+  923  git add .
+  924  git commit -m "list done"
+  925  git push origin master
+  926  git add .
+  927  git commit -m "list done"
+  928  git push origin master
+  929  ls
+  930  cd Documentos/
+  931  ls
+  932  rm c_exercice.zip 
+  933  cd praiashopping/
+  934  ls
+  935  rails s
+  936  cd Ru
+  937  cd ..
+  938  cd Ruby/
+  939  ls
+  940  cd appexample/
+  941  ls
+  942  rails s
+  943  history
+  944  git push heroku master
+  945  gem install bundler
+  946  heroku login
+  947  heroku create
+  948  git push heroku master
+  949  heroku open
+  950  ls
+  951  rails s
+  952  git push heroku master
+  953  git status
+  954  git add .
+  955  git commit -m "Send image"
+  956  git push heroku master
+  957  heroku pg:push
+  958  cd ..
+  959  ks
+  960  ls
+  961  cd ..
+  962  ls
+  963  cd praiashopping/
+  964  rails s
+  965  bundle install
+  966  gem --version
+  967  rbenv versions
+  968  rvm notes
+  969  \curl -sSL https://get.rvm.io | bash -s stable
+  970  rvm notes
+  971  \curl -L https://get.rvm.io | bash -s stable --rails
+  972  cd ..
+  973  ls
+  974  gem install pg
+  975  su - postgres
+  976  sudo su
+  977  ls
+  978  rails s
+  979  ls
+  980  cd Documentos/
+  981  ls
+  982  rm -rf appostgresql/
+  983  ls
+  984  rm -rf appostgresql/
+  985  ls
+  986  cd Ruby/
+  987  ls
+  988  cd appname/
+  989  ls
+  990  rails s
+  991* rails generate [Dscaffold Contato nome:string telefone:string
+  992* 
+  993  rake db:create:all
+  994  rake db:migrate
+  995  rails s
+  996  heroku login
+  997  heroku create
+  998  git push heroku master
+  999  git init
+ 1000  git push heroku master
+ 1001  git branch -mv origin master
+ 1002  git remote add origin /path/to/origin.git
+ 1003  git add .
+ 1004  git push heroku master
+ 1005  git status
+ 1006  git push heroku master
+ 1007  git remote add origin /path/to/origin.git
+ 1008  git commit -m "initial commit"
+ 1009  git push heroku master
+ 1010  gem install bundler
+ 1011  heroku login
+ 1012  heroku create
+ 1013  git push heroku master
+ 1014  heroku pg:push
+ 1015  heroku db:push
+ 1016  heroku pg:push
+ 1017  su - postgres
+ 1018  sudo su
+ 1019  heroku _
+ 1020  psql
+ 1021  history
+ 1022  sudo su
+ 1023  su - postgres
+ 1024  exit
+ 1025  cd Documentos/Ruby/appname/
+ 1026  ls
+ 1027  cd config/
+ 1028  ls
+ 1029  nano database.yml 
+ 1030  heroku pg:push appname_production HEROKU_POSTGRESQL_MAGENTA --app sushi
+ 1031  cd ..
+ 1032  heroku pg:push appname_production HEROKU_POSTGRESQL_MAGENTA --app sushi
+ 1033  heroku pg:push appname_production HEROKU_POSTGRESQL_MAGENTA --app appname
+ 1034  heroku pg:push appname_production HEROKU_POSTGRESQL_MAGENTA --app safe-atoll-53814
+ 1035  nano config/database.yml 
+ 1036  heroku pg:push appname_production --app safe-atoll-53814
+ 1037  heroku pg:push appname_production appname_production --app safe-atoll-53814
+ 1038  heroku pg:push appname_production DATABASE_URL --app safe-atoll-53814
+ 1039  nano config/database.yml 
+ 1040  heroku pg:push appname_production ENV['DATABASE_URL'] --app safe-atoll-53814
+ 1041  heroku pg:push appname_production DATABASE_URL --app safe-atoll-53814
+ 1042  heroku pg:psql
+ 1043  pg:psql
+ 1044  heroku pg:push appname_production DATABASE_URL --app safe-atoll-53814
+ 1045  nano config/database.yml 
+ 1046  heroku pg:push appname_production DATABASE_URL --app safe-atoll-53814
+ 1047  psql
+ 1048  heroku pg:push thiago DATABASE_URL --app safe-atoll-53814
+ 1049  heroku pg:push root DATABASE_URL --app safe-atoll-53814
+ 1050  heroku pg:push appname_production DATABASE_URL --app safe-atoll-53814
+ 1051  rails s
+ 1052  heroku pg:push contatos DATABASE_URL --app safe-atoll-53814
+ 1053  heroku pg:push appname_production DATABASE_URL --app safe-atoll-53814
+ 1054  heroku pg:push appname DATABASE_URL --app safe-atoll-53814
+ 1055  psql -d localhost -U root -W
+ 1056  psql -d localhost -U thiago -W
+ 1057  psql -d appname_production -U thiago -W
+ 1058  psql -d local socket -U thiago -W
+ 1059  psql -d Contato -U thiago -W
+ 1060  heroku pg:push Contato DATABASE_URL --app safe-atoll-53814
+ 1061  psql -U thiago -W
+ 1062  psql -d -U thiago -W
+ 1063  psql -U thiago -W
+ 1064  psql -U thiago
+ 1065  psql -h local -U thiago
+ 1066  psql -h localhost -U thiago
+ 1067  psql -h localhost -U root
+ 1068  psql -h localhost -U thiago
+ 1069  su - postgres
+ 1070  sudo su
+ 1071  heroku pg:push appname_development DATABASE_URL --app safe-atoll-53814
+ 1072  history > uppar_site.txt
