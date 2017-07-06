@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Appname</title>
+    <title>Agenda</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   	
+    <!-- Inserindo meu favicon -->
+   	<%= favicon_link_tag 'icon.png' %>
+
   </head>
 
   <body>
-    <%= yield %>
+    <%= yield %> <!-- Renderiza aqui meu body -->
   </body>
 </html>

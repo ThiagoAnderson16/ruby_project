@@ -1,29 +1,47 @@
-<p id="notice"><%= notice %></p>
+<!-- 'partials' é semelhante ao 'require' em php.   -->
+<%= render "partials/hello" %>
 
-<h1>Contatos</h1>
+<div class="container">
 
-<table>
-  <thead>
-    <tr>
-      <th>Nome</th>
-      <th>Telefone</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <p id="notice"><%= notice %></p>
 
-  <tbody>
-    <% @contatos.each do |contato| %>
-      <tr>
-        <td><%= contato.nome %></td>
-        <td><%= contato.telefone %></td>
-        <td><%= link_to 'Show', contato %></td>
-        <td><%= link_to 'Edit', edit_contato_path(contato) %></td>
-        <td><%= link_to 'Destroy', contato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+  <div class="jumbotron">
+    <h2>Contatos</h2>
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th colspan="3"></th>
+        </tr>
+      </thead>
 
-<br>
+      <tbody>
+        <% @contatos.each do |contato| %>
+        <tr>
+          <td>#<%= contato.id %></td>
+          <td><%= contato.nome %></td>
+          <td><%= contato.telefone %></td>
+          <td><%= link_to 'Show', contato %></td>
+          <td><%= link_to 'Edit', edit_contato_path(contato) %></td>
+          <td><%= link_to 'Destroy', contato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
 
-<%= link_to 'New Contato', new_contato_path %>
+    <!-- <%= link_to 'New Contato', new_contato_path %> É IGUAL A <a href="/contatos/new">New Contato</a>  -->
+
+    <a href="/contatos/new"><button type="button" class="btn btn-primary">Novo contato</button></a>
+
+
+  </div>
+
+
+  <footer class="footer">
+    <p>&copy; 2017 Thiago Anderson.</p>
+  </footer>
+
+</div> <!-- /container -->

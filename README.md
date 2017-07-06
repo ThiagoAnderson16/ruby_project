@@ -16,3 +16,6 @@ git push heroku master
 
 ## To Run
 * First I run `bundle`, second `rake db:create`, and finally `rake db:migrate`
+
+##Integrating Rails and Bootstrap
+* https://launchschool.com/blog/integrating-rails-and-bootstrap-part-1
