@@ -1,13 +1,6 @@
 <!-- 'partials' é semelhante ao 'require' em php.   -->
-<%= render "partials/hello" %>
-
-<div class="container">
-
-  <p id="notice"><%= notice %></p>
-
-  <div class="jumbotron">
-    <h2>Contatos</h2>
-    
+<%= render "partials/header" %>
+   
     <table class="table">
       <thead>
         <tr>
@@ -24,7 +17,7 @@
           <td>#<%= contato.id %></td>
           <td><%= contato.nome %></td>
           <td><%= contato.telefone %></td>
-          <td><%= link_to 'Show', contato %></td>
+          <td><%= link_to 'Show', contato, class: 'article' %></td>
           <td><%= link_to 'Edit', edit_contato_path(contato) %></td>
           <td><%= link_to 'Destroy', contato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         </tr>
@@ -36,12 +29,5 @@
 
     <a href="/contatos/new"><button type="button" class="btn btn-primary">Novo contato</button></a>
 
-
-  </div>
-
-
-  <footer class="footer">
-    <p>&copy; 2017 Thiago Anderson.</p>
-  </footer>
-
-</div> <!-- /container -->
+<%= render "partials/footer" %>
+  
