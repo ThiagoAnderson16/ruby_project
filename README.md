@@ -7,8 +7,8 @@
 
 ## To Deploy
 * Deployment project on heroku:
-`heroku login`
-`git push heroku master`
+<br>`heroku login`
+<br>`git push heroku master`
 
 * Deployment database: `heroku pg:push appname_development DATABASE_URL --app safe-atoll-53814`
 
