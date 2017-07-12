@@ -7,15 +7,13 @@
 
 ## To Deploy
 * Deployment project on heroku:
-```
-heroku login
-git push heroku master
-```
+`heroku login`
+`git push heroku master`
 
 * Deployment database: `heroku pg:push appname_development DATABASE_URL --app safe-atoll-53814`
 
 ## To Run
 * First I run `bundle`, second `rake db:create`, and finally `rake db:migrate`
 
-##Integrating Rails and Bootstrap
+## Integrating Rails and Bootstrap
 * https://launchschool.com/blog/integrating-rails-and-bootstrap-part-1
